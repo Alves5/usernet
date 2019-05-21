@@ -35,7 +35,7 @@
             $_SESSION["nome"] = $user;
             $pasta=$_SESSION["nome"];
             if(!file_exists("contas/$pasta/img")){
-                mkdir("contas/$pasta/img", 0777);
+                mkdir("contas/$pasta/img", 777);
             }
         }
         return $formValid;

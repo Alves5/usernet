@@ -50,6 +50,6 @@ $cSenha2=$_POST['password2'];
         return $formValid;
     }
     validar($cUser, $cSenha, $cSenha2);
-        header("Location: login.php");
+        header("Location: index.php");
     
 ?>

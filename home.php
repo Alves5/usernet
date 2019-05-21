@@ -9,7 +9,7 @@
 session_start();
 function comecando(){
 if(!isset($_SESSION['senha'])){
-        header("location:login.php");
+        header("location:index.php");
     }else{
     echo "
         <meta charset='utf-8' />
